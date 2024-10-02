@@ -34,12 +34,10 @@ public class Eleicao {
     public static void main(String[] args) {
         Eleicao eleicao = new Eleicao();
 
-        // Adicionar candidatos
-        eleicao.adicionarCandidato("João");
-        eleicao.adicionarCandidato("Maria");
-        eleicao.adicionarCandidato("José");
+        eleicao.adicionarCandidato("Taffe");
+        eleicao.adicionarCandidato("Cleiton");
+        eleicao.adicionarCandidato("Rodrigo");
 
-        // Simular votos
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.print("Digite o nome do candidato para votar (ou 'sair' para encerrar): ");
